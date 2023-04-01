@@ -30,6 +30,10 @@ int main()
             cout << num1 << " / " << num2 << " = " << num1 / num2 << '\n';
             break;
 
+        case '%':
+            cout<<num1<<" % " << num2 << " % " << (int)num1 % (int)num2 << '\n';
+            break;
+
         default:
             cout << "Operator is not available. \n";
             break;
